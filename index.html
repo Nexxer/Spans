@@ -5,10 +5,34 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Spans Agency</title>
 </head>
-<body>
-<header></header>
+<body class="page">
+<header class="header">
+    <a class="logo" href="#">
+        <img class="logo__image" src="./images/logo.svg" alt="логотип crossball" >
+    </a>
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu__item">Расписание</li>
+            <li class="menu__item">Игровые отчёты</li>
+            <li class="menu__item">Статистика</li>
+            <li class="menu__item">Ещё</li>
+        </ul>
+    </nav>
+    <div class="menu_extra">
+        <button class="btn__session">
+            <span class="btn__ball"></span>
+            <span class="arrow"></span>
+        </button>
+        <img src="./images/avatar.jpg" alt="фото" class="header__avatar">
+        <button class="btn__bag">
+            <span class="counter">1</span>
+        </button>
+    </div>
+</header>
 <aside></aside>
 <main></main>
 <footer></footer>
