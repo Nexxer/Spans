@@ -1,0 +1,113 @@
+.aside {
+    grid-area: aside;
+}
+
+.user {
+    display: flex;
+    gap: 13px;
+    min-height: 184px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 22px;
+    color: #fff;
+    background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+    border-radius: 10px;
+}
+
+.user__avatar {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    padding: 3px;
+    box-shadow: 0 0 0 2px #C4C4C4;;
+    border-radius: 50%;
+
+}
+
+.user__avatar_img {
+    border-radius: 50%;
+}
+
+.user__avatar::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("./../images/avatar-border.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 5;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: -2px;
+}
+
+.user__info {
+}
+
+.ratio {
+    position: relative;
+    width: min-content;
+    margin-top: 6px;
+}
+
+.ratio__text {
+    font-size: 30px;
+    margin: 0;
+}
+
+.ratio__up {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -7px;
+    left: calc(100% + 2px);
+    padding: 1px 2px 1px 6.5px;
+    background: #5A60E7;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.ratio__up::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("./../images/ratio-up.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+.user__name {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 110%;
+    margin: 11px 0 0;
+}
+
+.user__edit {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ACAFF3;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0;
+}
+
+.user__edit:before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-image: url("./../images/icon-edit.svg");
+    background-size: contain;
+    background-position: bottom;
+    margin-right: 5px;
+}
