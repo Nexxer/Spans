@@ -14,8 +14,8 @@
     <a class="logo" href="#">
         <img class="logo__image" src="./images/logo.svg" alt="логотип crossball">
     </a>
-    <nav class="nav">
-        <ul class="menu">
+    <nav>
+        <ul class="header__menu">
             <li class="menu__item">Расписание</li>
             <li class="menu__item">Игровые отчёты</li>
             <li class="menu__item">Статистика</li>
@@ -49,6 +49,43 @@
             </div>
             <button class="user__edit">Редактировать</button>
         </div>
+        <nav>
+            <ul class="account__menu">
+                <li class="account__menu_item item__active">
+                    <span>
+                        <img src="./images/user.svg" alt="иконка">
+                        Статистика
+                    </span>
+                    <ul class="account__submenu">
+                        <li class="account__submenu_item item__active"><span>Футбол</span></li>
+                        <li class="account__submenu_item"><span>Баскетбол</span></li>
+                        <li class="account__submenu_item"><span>Волейбол</span></li>
+                    </ul>
+                </li>
+                <li class="account__menu_item">
+                    <span>
+                        <img src="./images/calendar.svg" alt="иконка">
+                        Ближайшие игры
+                    </span>
+                </li>
+                <li class="account__menu_item">
+                    <span>
+                        <img src="./images/report.svg" alt="иконка">
+                        Игровые отчёты
+                    </span>
+                </li>
+                <li class="account__menu_item">
+                    <span>
+                        <img src="./images/history.svg" alt="иконка">
+                        История заказов
+                    </span>
+                </li>
+            </ul>
+        </nav>
+        <button class="btn_account-exit">
+            <img src="./images/log%20out.svg" alt="">
+            Выйти
+        </button>
     </aside>
     
     <div class="content">content</div>

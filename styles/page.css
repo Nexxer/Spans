@@ -10,6 +10,7 @@
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
     /*grid-template-rows: 1fr 1fr 1fr;*/
+    color: #222222;
     gap: 0 0;
     grid-template-areas:
     "header"

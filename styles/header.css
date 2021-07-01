@@ -17,10 +17,10 @@
 }
 
 .nav {
-    min-width: 555px;
 }
 
-.menu {
+.header__menu {
+    min-width: 555px;
     list-style: none;
     padding: 0;
     display: flex;

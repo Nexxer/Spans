@@ -1,5 +1,9 @@
 .aside {
     grid-area: aside;
+    background-color: #fff;
+    min-height: 800px;
+    box-shadow: 0 2px 8px #E9E9E9;
+    border-radius: 10px;;
 }
 
 .user {
@@ -109,5 +113,78 @@
     background-image: url("./../images/icon-edit.svg");
     background-size: contain;
     background-position: bottom;
+    margin-right: 5px;
+}
+
+/* MENU */
+
+.account__menu {
+    list-style: none;
+    padding: 0;
+    max-width: 210px;
+    margin: 50px 0 54px 20px;
+}
+
+.account__menu_item {
+    position: relative;
+    background-color: #fff;
+    color: #222222;
+    box-sizing: border-box;
+    margin: 0 0 5px;
+    line-height: 1.4;
+}
+
+.account__menu_item > span {
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.account__menu_item img {
+    /*position: absolute;*/
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 10px;
+    margin: 0 5px 0 10px;
+}
+
+.account__submenu {
+    list-style: none;
+    margin: 5px 0 -4px 20px;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.account__submenu_item {
+    background-color: #fff;
+    color: #222222;
+    margin: -2px 0 15px;
+
+}
+
+.account__submenu_item > span {
+    padding: 5px 10px;
+
+}
+
+.item__active > span {
+    display: flex;
+    background: #EFEFFD;
+    border-radius: 5px;
+    color: #5A60E7;
+}
+
+.btn_account-exit {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 0 0 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn_account-exit img {
     margin-right: 5px;
 }
