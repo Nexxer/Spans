@@ -1,3 +1,41 @@
 .content {
     grid-area: content;
 }
+
+.content__select {
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+
+}
+
+.content__select:after {
+    content: "";
+    background-image: url("./../images/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 12px);
+    z-index: 1;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.content__select select {
+    color: #909090;
+    border: none;
+    outline: none;
+    padding: 9px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
