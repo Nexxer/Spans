@@ -1,0 +1,78 @@
+.table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    text-align: left;
+    background-color: #fff;
+    filter: drop-shadow(0px 2px 8px #E9E9E9);
+    border-radius: 0 0 10px 10px;
+}
+
+.table tr th:not(:first-child) {
+    cursor: pointer;
+}
+
+.table tr th:first-child {
+    width: 427px;
+}
+
+.table tr th:nth-child(2) {
+    width: 146px;
+}
+
+.table tr th:nth-child(3) {
+    width: 103px;
+}
+
+.table tr th:nth-child(4) {
+    width: 93px;
+}
+
+.table tr th:nth-child(5) {
+    width: 122px;
+}
+
+
+/* HEADER */
+.table_header {
+    font-size: 12px;
+    color: #909090;
+}
+
+.table_header th {
+    border-bottom: 1px solid #D6D7F9;
+    vertical-align: bottom;
+}
+
+.table_header th img {
+    width: 12px;
+    height: 12px;
+    margin-bottom: -2px;
+}
+
+.table_header th span {
+    margin-left: -2px;
+}
+
+.table_header th:first-child {
+    padding: 20px 0 2px 20px;
+}
+
+
+/* LINE */
+.table__line td:first-child {
+    padding: 21px 0 22px 20px;
+}
+
+.table__line td:last-child {
+    color: #5A60E7;
+    font-weight: bold;
+}
+
+.table__line:nth-child(even) {
+    background-color: #FAF9F9;
+}
+
+.table__line td:not(:first-child) {
+    padding: 2px 0 0 13px;
+}

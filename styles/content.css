@@ -9,7 +9,7 @@
     justify-content: space-between;
     background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
     border-radius: 10px;
-    padding: 7px 20px 11px;
+    padding: 7px 20px 12px;
 }
 
 .content__stat:after {
@@ -212,6 +212,7 @@
     box-sizing: border-box;
     position: relative;
     display: inline-block;
+    margin: 22px 0 18px;
 
 }
 
@@ -222,8 +223,8 @@
     background-position: center;
     color: red;
     position: absolute;
-    right: 8px;
-    top: calc(50% - 12px);
+    right: 10px;
+    top: calc(50% - 14px);
     z-index: 1;
     text-align: center;
     width: 24px;
