@@ -188,6 +188,10 @@
     margin: 0;
 }
 
+.content__social-links > li {
+    height: 40px;
+}
+
 .content__social-links_title {
     margin: 0;
     width: 100%;

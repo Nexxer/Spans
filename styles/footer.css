@@ -1,3 +1,130 @@
 .footer {
     grid-area: footer;
+    padding: 50px 40px 16px;
+    background: #222;
+    color: #fff;
+}
+
+.footer__content {
+    display: flex;
+    border-bottom: 1px solid #D6D7F9;
+}
+
+
+/* LEFT CONTACTS */
+.footer__left-contacts {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.footer__logo svg {
+    fill: #fff;
+}
+
+.footer__left__link_app {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer__left__link_app > a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 0 8px 10px;
+    width: 137px;
+    background: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%), #2C2C2C;
+    border-radius: 5px;
+}
+
+.footer__left__link_app > a:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: -10px;
+    left: -10px;
+    bottom: -10px;
+    right: -10px;
+    border-radius: 5px;
+    background: linear-gradient(143.66deg, #6171ff -9.12%, rgba(90, 96, 231, 0) 40.43%),
+    linear-gradient(120.87deg, rgba(97, 113, 255, 0) 70.49%, #6171ff 90.53%);
+}
+
+.footer__left__title_contact {
+    color: #ACAFF3;
+    margin: 50px 0 20px;
+}
+
+.footer__left_tel {
+}
+
+.footer__left_email {
+}
+
+
+/* MENU */
+
+.footer__menu {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.footer__menu_lists {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__menu_list {
+}
+
+.menu_list-title {
+    color: #ACAFF3;
+    margin: 0 0 20px;
+}
+
+.lists__submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lists__submenu > li {
+    margin-bottom: 10px;
+}
+
+.lists__submenu > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contacts in bottom */
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer__copyright {
+}
+
+.footer__links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__links > li {
+    height: 40px;
+}
+
+.footer-link {
+    font-size: 0;
+}
+
+.footer__created {
 }
