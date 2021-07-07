@@ -122,6 +122,10 @@
 
 
 @media screen and (max-width: 1000px) {
+    .header{
+        box-shadow: none;
+    }
+
     .header__logo svg {
         width: 120px;
         height: 20px;

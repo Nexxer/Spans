@@ -179,7 +179,7 @@
     border: none;
     background-color: transparent;
     padding: 0;
-    margin: 0 0 0 30px;
+    margin: 30px 0 0;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -187,4 +187,86 @@
 
 .btn_account-exit img {
     margin-right: 5px;
+}
+
+.user__social_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .aside {
+        width: 100%;
+        border-radius: 0;
+        min-height: auto;
+    }
+
+    .aside nav {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .user {
+        border-radius: 0;
+        padding: 22px 40px;
+    }
+
+    .user__edit {
+        left: 40px;
+    }
+
+    .user__social_mobile {
+        display: block;
+        position: absolute;
+        bottom: 17px;
+        right: 40px;
+    }
+
+    .user__social_mobile > ul > li > img {
+        height: 32px;
+    }
+    .item__active > span {
+        padding: 4px 10px 4px 0;
+    }
+    .account__menu {
+        display: flex;
+        margin: 0;
+        padding: 20px 0 20px 10px;
+        max-width: 100%;
+    }
+
+    .account__menu_item > span {
+        width: max-content;
+    }
+
+    .item__active > span {
+        background-color: #5A60E7;
+        color: #fff;
+    }
+
+    .btn_account-exit {
+        margin: 0;
+    }
+
+    .account__submenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin: 0;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 5px;
+        z-index: 100;
+    }
+
+    .account__submenu .item__active > span {
+        background: transparent;
+        color: #222;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .user__social_mobile {
+        right: 0;
+    }
 }

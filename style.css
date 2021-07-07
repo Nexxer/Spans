@@ -1,10 +1,10 @@
 @import url("./fonts/fonts.css");
-@import url("styles/page.css");
-@import url("styles/header.css");
-@import url("styles/aside.css");
-@import url("styles/content.css");
-@import url("styles/table.css");
-@import url("styles/footer.css");
+@import url("./styles/page.css");
+@import url("./styles/header.css");
+@import url("./styles/aside.css");
+@import url("./styles/content.css");
+@import url("./styles/table.css");
+@import url("./styles/footer.css");
 
 
 
