@@ -246,3 +246,60 @@
     -moz-appearance: none;
     appearance: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 100%;
+    }
+
+    .content__stat {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .content__social {
+        display: none;
+    }
+
+    .content__stat:after {
+        display: none;
+    }
+
+    .stat__session {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .form_toggle {
+        width: 100%;
+    }
+
+    .form_toggle-item {
+        width: 50%;
+    }
+
+    .form_toggle-item label {
+        width: 100%;
+    }
+    .stat__cards{
+        gap: 0;
+        width: 100%;
+    }
+    .card{
+        min-width: 67.5px;
+        width: 22%;
+    }
+    .card__title{
+        font-size: 12px;
+    }
+    .card__value{
+        font-size: 20px;
+    }
+    .content__stat > div:first-child {
+        margin: 0 auto;
+    }
+}
