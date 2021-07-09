@@ -30,7 +30,14 @@
     padding: 17px 40px 247px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1350px) {
+    .main{
+        padding-left: 0;
+        gap: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
     .main {
         display: grid;
         grid-template-columns: minmax(320px, 1fr);

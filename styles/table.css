@@ -31,6 +31,9 @@
 .table tr th:nth-child(5) {
     width: 122px;
 }
+.table tr th:nth-child(6) {
+    width: 96px;
+}
 
 
 /* HEADER */
@@ -80,7 +83,7 @@
     padding: 2px 0 0 13px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .table {
         margin-left: 10px;
         border-radius: 5px;

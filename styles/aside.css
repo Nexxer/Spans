@@ -193,7 +193,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .aside {
         width: 100%;
         border-radius: 0;
