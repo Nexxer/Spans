@@ -33,7 +33,7 @@
 @media screen and (max-width: 1000px) {
     .main {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(320px, 1fr);
         grid-template-rows: min-content 1fr;
         grid-template-areas:
     "aside"

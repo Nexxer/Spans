@@ -137,7 +137,7 @@
 
 @media screen and (max-width: 1000px) {
     .footer {
-        padding: 20px;
+        padding: 20px 0;
     }
 
     .footer__content {
@@ -151,6 +151,7 @@
 
     .footer__left-contacts {
         align-items: center;
+        width: auto;
     }
 
     .footer__left-contacts > a > img {
@@ -195,6 +196,7 @@
         flex-direction: column;
         align-items: center;
         gap: 5px;
+        margin: 0;
     }
 
 
