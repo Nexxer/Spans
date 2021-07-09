@@ -134,3 +134,68 @@
 
 .footer__created {
 }
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer__content {
+        justify-content: center;
+        border: none;
+    }
+
+    .footer__menu {
+        display: none;
+    }
+
+    .footer__left-contacts {
+        align-items: center;
+    }
+
+    .footer__left-contacts > a > img {
+        display: none;
+    }
+
+    .footer__left__title_contact {
+        display: none;
+    }
+
+    .footer__left_email {
+        order: -5;
+        margin: 0 0 10px;
+    }
+
+    .footer__left_tel {
+        order: -4;
+        margin: 0 0 20px;
+    }
+
+    .footer__links {
+        display: none;
+    }
+
+    .footer__links_mobile {
+        display: flex;
+        order: -3;
+        margin: 0 0 33px;
+    }
+
+    .footer__left__link_app {
+        order: -2;
+        margin: 0 0 37px;
+    }
+
+    .footer__logo {
+        order: -1;
+        margin: 0 0 20px;
+    }
+
+    .footer__contacts {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+}
